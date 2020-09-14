@@ -7,24 +7,24 @@
   "description": "Eddie's Sample Activity",
   "author": "ecole@tibco.com",
   "homepage": "https://github.com/ecoletibco/activity101",
-  "settings": [
-    {
-      "name": "aSetting",
-      "type": "string",
-      "required": true
-    }
-  ],
   "input": [
     {
-      "name": "anInput",
+      "name": "message",
       "type": "string",
-      "required": true
-    }
-  ],
-  "output": [
+      "value": "",
+      "description": "The message to log"
+    },
     {
-      "name": "anOutput",
-      "type": "string"
+      "name": "addDetails",
+      "type": "boolean",
+      "value": false,
+      "description": "Append contextual execution information to the log message"
+    },
+    {
+      "name": "usePrint",
+      "type": "boolean",
+      "value": false,
+      "description": "Use Print to stdout instead of built-in logger"
     }
   ]
 }
