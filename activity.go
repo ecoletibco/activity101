@@ -61,6 +61,8 @@ func (a *Activity) Metadata() *activity.Metadata {
 // Eval implements api.Activity.Eval - Logs the Message
 func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 
+	ctx.Logger().Info("Entering activity101: api.Activity.Eval")
+
 	input := &Input{}
 	ctx.GetInputObject(input)
 
