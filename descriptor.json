@@ -3,10 +3,10 @@
   "type": "flogo:activity",
   "version": "0.0.1",
   "title": "Activity 101",
-  "ref": "???",
+  "ref": "https://github.com/ecoletibco/activity101",
   "description": "Eddie's Sample Activity",
   "author": "ecole@tibco.com",
-  "homepage": "https://github.com/project-flogo/tree/master/examples/activity",
+  "homepage": "https://github.com/ecoletibco/activity101",
   "settings": [
     {
       "name": "aSetting",
